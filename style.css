@@ -1,0 +1,190 @@
+/* =========================
+   BASIC / ELEMENT SELECTORS
+   ========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Pseudo-class Selector */
+
+nav a:hover {
+    color: orange;
+}
+
+
+/* =========================
+   SHOPPING / PRODUCTS
+   ========================= */
+
+.products {
+    text-align: center;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.product h2 {
+    color: #333;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+
+/* =========================
+   BUTTON
+   ========================= */
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+
+/* =========================
+   LINKS
+   ========================= */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a {
+    color: white;
+    margin: 10px;
+}
+
+
+/* =========================
+   IMAGE
+   ========================= */
+
+img {
+    max-width: 100%;
+}
+
+
+/* =========================
+   TABLE
+   ========================= */
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+/* =========================
+   FORM
+   ========================= */
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+input[type="text"] {
+    border: 1px solid gray;
+}
+
+input[type="password"] {
+    border: 1px solid gray;
+}

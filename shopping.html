@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<center>
+
+<body>
+
+    <main>
+
+        <h1>Login</h1>
+
+        <form action="index.html" method="get">
+
+            <div>
+                <label for="username">Username</label>
+
+                <input type="text"
+                       id="username"
+                       name="username"
+                       required
+                       autocomplete="username">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="password">Password</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                    minlength="8"
+                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}"
+                    title="Password must be at least 8 characters and include an uppercase letter, a lowercase letter, a number, and a special character."
+                    autocomplete="current-password">
+            </div>
+
+            <br>
+
+            <button type="submit">Log in</button>
+
+        </form>
+
+    </main>
+
+</body>
+
+</center>
+
+</html>
